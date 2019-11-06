@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1338CA5A234E657800BD4CD0 /* Nihar_GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1338CA59234E657800BD4CD0 /* Nihar_GameModel.swift */; };
+		1338CA5C234E689200BD4CD0 /* Nihar_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1338CA5B234E689200BD4CD0 /* Nihar_ViewController.swift */; };
+		13522717233BFAF5001123CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13522716233BFAF5001123CA /* AppDelegate.swift */; };
+		13522719233BFAF5001123CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13522718233BFAF5001123CA /* SceneDelegate.swift */; };
+		1352271B233BFAF5001123CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1352271A233BFAF5001123CA /* ViewController.swift */; };
+		1352271E233BFAF5001123CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1352271C233BFAF5001123CA /* Main.storyboard */; };
+		13522720233BFAF6001123CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1352271F233BFAF6001123CA /* Assets.xcassets */; };
+		13522723233BFAF6001123CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13522721233BFAF6001123CA /* LaunchScreen.storyboard */; };
+		1352272E233BFAF6001123CA /* Nihar_Patel_Blue_TicTacToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1352272D233BFAF6001123CA /* Nihar_Patel_Blue_TicTacToeTests.swift */; };
+		13522739233BFAF6001123CA /* Nihar_Patel_Blue_TicTacToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13522738233BFAF6001123CA /* Nihar_Patel_Blue_TicTacToeUITests.swift */; };
+		13522747233C0770001123CA /* Nihar_TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13522746233C0770001123CA /* Nihar_TableViewController.swift */; };
+		13522749233C0931001123CA /* Nihar_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13522748233C0931001123CA /* Nihar_TableViewCell.swift */; };
+		1357BD4423579FBD00C18634 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1357BD4323579FBD00C18634 /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1352272A233BFAF6001123CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1352270B233BFAF5001123CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13522712233BFAF5001123CA;
+			remoteInfo = Nihar_Patel_Blue_TicTacToe;
+		};
+		13522735233BFAF6001123CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1352270B233BFAF5001123CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13522712233BFAF5001123CA;
+			remoteInfo = Nihar_Patel_Blue_TicTacToe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1338CA59234E657800BD4CD0 /* Nihar_GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nihar_GameModel.swift; sourceTree = "<group>"; };
+		1338CA5B234E689200BD4CD0 /* Nihar_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nihar_ViewController.swift; sourceTree = "<group>"; };
+		13522713233BFAF5001123CA /* Nihar_Patel_Blue_TicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nihar_Patel_Blue_TicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13522716233BFAF5001123CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13522718233BFAF5001123CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1352271A233BFAF5001123CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1352271D233BFAF5001123CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1352271F233BFAF6001123CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13522722233BFAF6001123CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13522724233BFAF6001123CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13522729233BFAF6001123CA /* Nihar_Patel_Blue_TicTacToeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Nihar_Patel_Blue_TicTacToeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1352272D233BFAF6001123CA /* Nihar_Patel_Blue_TicTacToeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nihar_Patel_Blue_TicTacToeTests.swift; sourceTree = "<group>"; };
+		1352272F233BFAF6001123CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13522734233BFAF6001123CA /* Nihar_Patel_Blue_TicTacToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Nihar_Patel_Blue_TicTacToeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13522738233BFAF6001123CA /* Nihar_Patel_Blue_TicTacToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nihar_Patel_Blue_TicTacToeUITests.swift; sourceTree = "<group>"; };
+		1352273A233BFAF6001123CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13522746233C0770001123CA /* Nihar_TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nihar_TableViewController.swift; sourceTree = "<group>"; };
+		13522748233C0931001123CA /* Nihar_TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nihar_TableViewCell.swift; sourceTree = "<group>"; };
+		1357BD4323579FBD00C18634 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13522710233BFAF5001123CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13522726233BFAF6001123CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13522731233BFAF6001123CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1352270A233BFAF5001123CA = {
+			isa = PBXGroup;
+			children = (
+				13522715233BFAF5001123CA /* Nihar_Patel_Blue_TicTacToe */,
+				1352272C233BFAF6001123CA /* Nihar_Patel_Blue_TicTacToeTests */,
+				13522737233BFAF6001123CA /* Nihar_Patel_Blue_TicTacToeUITests */,
+				13522714233BFAF5001123CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13522714233BFAF5001123CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13522713233BFAF5001123CA /* Nihar_Patel_Blue_TicTacToe.app */,
+				13522729233BFAF6001123CA /* Nihar_Patel_Blue_TicTacToeTests.xctest */,
+				13522734233BFAF6001123CA /* Nihar_Patel_Blue_TicTacToeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13522715233BFAF5001123CA /* Nihar_Patel_Blue_TicTacToe */ = {
+			isa = PBXGroup;
+			children = (
+				13522716233BFAF5001123CA /* AppDelegate.swift */,
+				13522718233BFAF5001123CA /* SceneDelegate.swift */,
+				1352271A233BFAF5001123CA /* ViewController.swift */,
+				1352271C233BFAF5001123CA /* Main.storyboard */,
+				1352271F233BFAF6001123CA /* Assets.xcassets */,
+				13522721233BFAF6001123CA /* LaunchScreen.storyboard */,
+				13522724233BFAF6001123CA /* Info.plist */,
+				13522746233C0770001123CA /* Nihar_TableViewController.swift */,
+				13522748233C0931001123CA /* Nihar_TableViewCell.swift */,
+				1338CA59234E657800BD4CD0 /* Nihar_GameModel.swift */,
+				1338CA5B234E689200BD4CD0 /* Nihar_ViewController.swift */,
+				1357BD4323579FBD00C18634 /* Constants.swift */,
+			);
+			path = Nihar_Patel_Blue_TicTacToe;
+			sourceTree = "<group>";
+		};
+		1352272C233BFAF6001123CA /* Nihar_Patel_Blue_TicTacToeTests */ = {
+			isa = PBXGroup;
+			children = (
+				1352272D233BFAF6001123CA /* Nihar_Patel_Blue_TicTacToeTests.swift */,
+				1352272F233BFAF6001123CA /* Info.plist */,
+			);
+			path = Nihar_Patel_Blue_TicTacToeTests;
+			sourceTree = "<group>";
+		};
+		13522737233BFAF6001123CA /* Nihar_Patel_Blue_TicTacToeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				13522738233BFAF6001123CA /* Nihar_Patel_Blue_TicTacToeUITests.swift */,
+				1352273A233BFAF6001123CA /* Info.plist */,
+			);
+			path = Nihar_Patel_Blue_TicTacToeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13522712233BFAF5001123CA /* Nihar_Patel_Blue_TicTacToe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1352273D233BFAF6001123CA /* Build configuration list for PBXNativeTarget "Nihar_Patel_Blue_TicTacToe" */;
+			buildPhases = (
+				1352270F233BFAF5001123CA /* Sources */,
+				13522710233BFAF5001123CA /* Frameworks */,
+				13522711233BFAF5001123CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nihar_Patel_Blue_TicTacToe;
+			productName = Nihar_Patel_Blue_TicTacToe;
+			productReference = 13522713233BFAF5001123CA /* Nihar_Patel_Blue_TicTacToe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13522728233BFAF6001123CA /* Nihar_Patel_Blue_TicTacToeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13522740233BFAF6001123CA /* Build configuration list for PBXNativeTarget "Nihar_Patel_Blue_TicTacToeTests" */;
+			buildPhases = (
+				13522725233BFAF6001123CA /* Sources */,
+				13522726233BFAF6001123CA /* Frameworks */,
+				13522727233BFAF6001123CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1352272B233BFAF6001123CA /* PBXTargetDependency */,
+			);
+			name = Nihar_Patel_Blue_TicTacToeTests;
+			productName = Nihar_Patel_Blue_TicTacToeTests;
+			productReference = 13522729233BFAF6001123CA /* Nihar_Patel_Blue_TicTacToeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13522733233BFAF6001123CA /* Nihar_Patel_Blue_TicTacToeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13522743233BFAF6001123CA /* Build configuration list for PBXNativeTarget "Nihar_Patel_Blue_TicTacToeUITests" */;
+			buildPhases = (
+				13522730233BFAF6001123CA /* Sources */,
+				13522731233BFAF6001123CA /* Frameworks */,
+				13522732233BFAF6001123CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13522736233BFAF6001123CA /* PBXTargetDependency */,
+			);
+			name = Nihar_Patel_Blue_TicTacToeUITests;
+			productName = Nihar_Patel_Blue_TicTacToeUITests;
+			productReference = 13522734233BFAF6001123CA /* Nihar_Patel_Blue_TicTacToeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1352270B233BFAF5001123CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Nihar Patel";
+				TargetAttributes = {
+					13522712233BFAF5001123CA = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					13522728233BFAF6001123CA = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 13522712233BFAF5001123CA;
+					};
+					13522733233BFAF6001123CA = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 13522712233BFAF5001123CA;
+					};
+				};
+			};
+			buildConfigurationList = 1352270E233BFAF5001123CA /* Build configuration list for PBXProject "Nihar_Patel_Blue_TicTacToe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1352270A233BFAF5001123CA;
+			productRefGroup = 13522714233BFAF5001123CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13522712233BFAF5001123CA /* Nihar_Patel_Blue_TicTacToe */,
+				13522728233BFAF6001123CA /* Nihar_Patel_Blue_TicTacToeTests */,
+				13522733233BFAF6001123CA /* Nihar_Patel_Blue_TicTacToeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13522711233BFAF5001123CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13522723233BFAF6001123CA /* LaunchScreen.storyboard in Resources */,
+				13522720233BFAF6001123CA /* Assets.xcassets in Resources */,
+				1352271E233BFAF5001123CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13522727233BFAF6001123CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13522732233BFAF6001123CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1352270F233BFAF5001123CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1352271B233BFAF5001123CA /* ViewController.swift in Sources */,
+				1338CA5C234E689200BD4CD0 /* Nihar_ViewController.swift in Sources */,
+				13522717233BFAF5001123CA /* AppDelegate.swift in Sources */,
+				1338CA5A234E657800BD4CD0 /* Nihar_GameModel.swift in Sources */,
+				13522749233C0931001123CA /* Nihar_TableViewCell.swift in Sources */,
+				13522747233C0770001123CA /* Nihar_TableViewController.swift in Sources */,
+				13522719233BFAF5001123CA /* SceneDelegate.swift in Sources */,
+				1357BD4423579FBD00C18634 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13522725233BFAF6001123CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1352272E233BFAF6001123CA /* Nihar_Patel_Blue_TicTacToeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13522730233BFAF6001123CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13522739233BFAF6001123CA /* Nihar_Patel_Blue_TicTacToeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1352272B233BFAF6001123CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13522712233BFAF5001123CA /* Nihar_Patel_Blue_TicTacToe */;
+			targetProxy = 1352272A233BFAF6001123CA /* PBXContainerItemProxy */;
+		};
+		13522736233BFAF6001123CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13522712233BFAF5001123CA /* Nihar_Patel_Blue_TicTacToe */;
+			targetProxy = 13522735233BFAF6001123CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1352271C233BFAF5001123CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1352271D233BFAF5001123CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13522721233BFAF6001123CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13522722233BFAF6001123CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1352273B233BFAF6001123CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1352273C233BFAF6001123CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1352273E233BFAF6001123CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Nihar_Patel_Blue_TicTacToe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "np.Nihar-Patel-Blue-TicTacToe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1352273F233BFAF6001123CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Nihar_Patel_Blue_TicTacToe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "np.Nihar-Patel-Blue-TicTacToe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		13522741233BFAF6001123CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Nihar_Patel_Blue_TicTacToeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "np.Nihar-Patel-Blue-TicTacToeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nihar_Patel_Blue_TicTacToe.app/Nihar_Patel_Blue_TicTacToe";
+			};
+			name = Debug;
+		};
+		13522742233BFAF6001123CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Nihar_Patel_Blue_TicTacToeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "np.Nihar-Patel-Blue-TicTacToeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nihar_Patel_Blue_TicTacToe.app/Nihar_Patel_Blue_TicTacToe";
+			};
+			name = Release;
+		};
+		13522744233BFAF6001123CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Nihar_Patel_Blue_TicTacToeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "np.Nihar-Patel-Blue-TicTacToeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nihar_Patel_Blue_TicTacToe;
+			};
+			name = Debug;
+		};
+		13522745233BFAF6001123CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Nihar_Patel_Blue_TicTacToeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "np.Nihar-Patel-Blue-TicTacToeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nihar_Patel_Blue_TicTacToe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1352270E233BFAF5001123CA /* Build configuration list for PBXProject "Nihar_Patel_Blue_TicTacToe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1352273B233BFAF6001123CA /* Debug */,
+				1352273C233BFAF6001123CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1352273D233BFAF6001123CA /* Build configuration list for PBXNativeTarget "Nihar_Patel_Blue_TicTacToe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1352273E233BFAF6001123CA /* Debug */,
+				1352273F233BFAF6001123CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13522740233BFAF6001123CA /* Build configuration list for PBXNativeTarget "Nihar_Patel_Blue_TicTacToeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13522741233BFAF6001123CA /* Debug */,
+				13522742233BFAF6001123CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13522743233BFAF6001123CA /* Build configuration list for PBXNativeTarget "Nihar_Patel_Blue_TicTacToeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13522744233BFAF6001123CA /* Debug */,
+				13522745233BFAF6001123CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1352270B233BFAF5001123CA /* Project object */;
+}
